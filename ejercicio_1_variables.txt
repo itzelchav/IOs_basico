@@ -1,0 +1,73 @@
+import Foundation
+ 
+let hello = "Hello, world!"
+ 
+//let se utiliza para indicar constantes
+//var se utiliza para indicar variables
+ 
+//var nombre="cosas" //implicito que es String
+//var nombre_2: String="Petra" //explicito que es string
+ 
+var edad: Int = 10
+let mayoria_edad = 18.8
+ 
+//var nombre: String? = nil
+ 
+print("El tipo de dato de mayoria_edad es \(type(of: mayoria_edad))")
+ 
+//var saludar_a: String = "Buenos dias \ (nombre ?? "Fulanito")"
+ 
+/*if(edad>mayoria_edad){
+  print("Si es mayor de edad")
+}
+else{
+  print("No es mayor de edad")
+}
+ 
+//print(saludar_a)*/
+ 
+ 
+ 
+var nombre: String = "Itzel"
+var numero: Double = 23.3
+var num2: Decimal = 1.5
+var num3: Float = 2.5
+var true_false: Bool = true
+ 
+let edad_1: Int = 50
+let nombre1: String = "Ricardo"
+let num1: Decimal = 1.1
+let num_2: Double = 8.9
+let num_3: Float = 3.333
+ 
+ 
+let edad_2 = 50.4
+print("el tipo de dato de edad_2 es \(type(of: edad_2))")
+ 
+let precio = 99.9
+print("el tipo de dato de precio es \(type(of: precio))")
+ 
+let identidad = "Manganita"
+print("el tipo de dato de identidad es \(type(of: identidad))")
+ 
+let numero1 = 3
+print("el tipo de dato de numero1 es \(type(of: numero1))")
+ 
+let numero2 = 3.4
+print("el tipo de dato de numero2 es \(type(of: numero2))")
+ 
+ 
+var no_se = true
+print("el tipo de dato de no_se es \(type(of: no_se))")
+ 
+var medida = 1.56
+print("el tipo de dato de medida es \(type(of: medida))")
+ 
+var n1 = "Juan"
+print("el tipo de dato de n1 es \(type(of: n1))")
+ 
+var abc = 4.9832
+print("el tipo de dato de abc es \(type(of: abc))")
+ 
+var xyz = 2.8763
+print("el tipo de dato de xyz es \(type(of: xyz))")
